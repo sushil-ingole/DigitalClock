@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Calculator</h2>
+        <div class="flex-box-container">
+            <div class="flex-calc-layout">
+                <div class="item" id="ans">0</div>
+                <button id="btadd" class="item" onclick="operAdd()">+</button>
+                <button id="btsub" class="item" onclick="operSub()">-</button>
+                <button id="btmul" class="item" onclick="operMul()">x</button>
+                <button id="btdiv" class="item" onclick="operDiv()">÷</button>
+                <button id="btns7" class="item" onclick="numSeven()">7</button>
+                <button id="btns8" class="item" onclick="numEight()">8</button>
+                <button id="btns9" class="item" onclick="numNine()">9</button>
+                <button id="btns4" class="item" onclick="numFour()">4</button>
+                <button id="btns5" class="item" onclick="numFive()">5</button>
+                <button id="btns6" class="item" onclick="numSix()">6</button>
+                <button id="btns1" class="item" onclick="numOne()">1</button>
+                <button id="btns2" class="item" onclick="numTwo()">2</button>
+                <button id="btns3" class="item" onclick="numThree()">3</button>
+                <button id="btns0" class="item" onclick="numZero()">0</button>
+                <button id="btns." class="item" onclick="numDot()">.</button>
+                <button id="btnsC" class="item" onclick="operClear()">C</button>
+                <button id="btnseq" class="item" onclick="operEqual()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
